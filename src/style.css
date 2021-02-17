@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.menu {
+    @apply px-4 py-2 transition duration-200 rounded cursor-pointer;
+}
+.menu:hover {
+    @apply bg-pink-700 text-white;
+}
+
+.btn-info {
+    @apply bg-pink-500 text-white transition duration-200 cursor-pointer py-2 px-8 rounded;
+}
+.btn-info:hover {
+    @apply bg-pink-700;
+}
+.card {
+    @apply bg-pink-100 rounded p-4 border-2 border-pink-800;
+}
+
+.btn-learn {
+    @apply border-2 border-pink-300 text-gray-700 rounded-full py-1 px-8 inline-block mt-8 ;
+}
+
+.btn-learn:hover {
+    @apply bg-pink-700 text-white ;
+}
